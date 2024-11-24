@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+button,
+body{
+    font-family: "poppins",sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 14px;
+    line-height: 26px;
+}
+.fcontainer{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: left;
+}
+
+header .logo img {
+    height: 75px;
+    
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    margin-left: 20px;
+    
+}
+
+header{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    
+    position:fixed;
+    z-index: 2;
+}
+header.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+header.container.logo{
+    padding: 15px 0;
+    height: 75px;
+}
+header.container.logo img{
+    display: inline-block;
+    height: 100%;
+}
+header nav ul{
+    margin-left: 50px;
+    display: inline-block;
+}
+header nav ul li{
+    display: inline-block;
+    
+}
+header nav ul li a{
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    transition: 0.3s;
+}
+header nav ul li a:hover{
+    background-color: var(--themeRed);
+}
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(31, 79, 31);
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.banner h1{
+    margin-top: 230px;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    width: 50%;
+    line-height: 4.2rem;
+    font-weight: 100;
+}
+.banner h1 span{
+    background-color: var(--themeRed);
+    display: inline-block;
+    line-height: 3.5rem;
+    padding: 0 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.banner p{
+    color: #fff;
+    width: 50%;
+    text-shadow: 0 0 2px #000;
+    margin-top: 10px;
+}
+.banner button{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 0;
+    outline: none;
+    color:#fff;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight:  600;
+}
+.container1 {
+                 /* Enables flex layout */
+    display: grid;                    /* Enables grid layout */
+    grid-template-columns: 1fr 1fr;   /* Creates two equal-width columns */
+    gap: 20px; 
+}
+
+.column {
+    flex: 1;                      /* Each column takes up equal width */
+    padding: 20px;                /* Adds space inside the columns */
+    box-sizing: border-box;       /* Includes padding in the element’s width */
+}
+
+.lc{
+    position: absolute;
+}

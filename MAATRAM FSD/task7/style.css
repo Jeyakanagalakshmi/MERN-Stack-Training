@@ -1,0 +1,118 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.feature {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+/* Specific styling to match the image */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.feature h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.feature a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.con{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.cen{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}

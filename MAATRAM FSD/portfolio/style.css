@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+#home {
+    background: url('https://th.bing.com/th/id/OIP.Ms4zZQvr3xsl7wCc1b9nRwHaEK?rs=1&pid=ImgDetMain') no-repeat center center/cover;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    font-size: 0.9rem;
+}
